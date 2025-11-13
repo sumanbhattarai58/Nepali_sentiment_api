@@ -3,9 +3,10 @@ pip>=24.0
 # -----------------------------
 # PyTorch (CPU version for Render)
 # -----------------------------
-torch==2.5.1
-torchvision==0.20.0
-torchaudio==2.5.1
+-f https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.5.1+cpu
+torchvision==0.20.0+cpu
+torchaudio==2.5.1+cpu
 
 # -----------------------------
 # Hugging Face

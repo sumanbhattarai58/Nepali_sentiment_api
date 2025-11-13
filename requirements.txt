@@ -1,40 +1,18 @@
-# Upgrade pip
 pip>=25.3
-
-# -----------------------------
-# PyTorch (CPU, Python 3.11)
-# -----------------------------
--f https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.10.0
+torch==2.9.1
 torchvision==0.15.2
-torchaudio==2.10.0
-
-# -----------------------------
-# Hugging Face
-# -----------------------------
+torchaudio==2.9.1
 transformers==4.47.1
 datasets==3.2.0
 tokenizers==0.21.0
 safetensors==0.4.5
-
-# -----------------------------
-# ML Libraries
-# -----------------------------
 scikit-learn==1.6.0
 numpy==1.26.4
-
-# -----------------------------
-# Web / API / Deployment
-# -----------------------------
 fastapi==0.115.6
 uvicorn[standard]==0.34.0
 python-multipart==0.0.20
 streamlit==1.41.1
 requests==2.32.3
 pillow==11.0.0
-
-# -----------------------------
-# Utilities
-# -----------------------------
 pyyaml==6.0.2
 tqdm==4.67.1

@@ -1,22 +1,26 @@
 --index-url https://download.pytorch.org/whl/cpu
-torch>=2.5.1,<2.6.0
-torchvision>=0.20.0,<0.21.0
-torchaudio>=2.5.1,<2.6.0
+torch==2.5.1+cpu
+torchvision==0.20.0+cpu
+torchaudio==2.5.1+cpu
 
-transformers>=4.46.0,<4.48.0
-datasets>=3.1.0,<3.3.0
-tokenizers>=0.19.0,<0.22.0
-safetensors>=0.4.0,<0.5.0
+# Use compatible versions without strict pinning
+transformers>=4.30.0
+datasets>=2.0.0
+tokenizers>=0.13.0
+safetensors>=0.3.0
 
-scikit-learn>=1.5.0,<1.7.0
-numpy>=1.26.0,<1.27.0
+# ML Libraries
+scikit-learn>=1.0.0
+numpy>=1.21.0
 
-fastapi>=0.115.0,<0.116.0
-uvicorn[standard]>=0.34.0,<0.35.0
-python-multipart>=0.0.20,<0.1.0
-streamlit>=1.41.0,<1.42.0
-requests>=2.32.0,<2.33.0
-pillow>=11.0.0,<12.0.0
+# Web / API / Deployment
+fastapi>=0.68.0
+uvicorn[standard]>=0.15.0
+python-multipart>=0.0.5
+streamlit>=1.0.0
+requests>=2.25.0
+pillow>=9.0.0
 
-pyyaml>=6.0.0,<7.0.0
-tqdm>=4.66.0,<4.68.0
+# Utilities
+pyyaml>=5.0.0
+tqdm>=4.60.0
